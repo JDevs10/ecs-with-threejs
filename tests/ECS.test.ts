@@ -1,7 +1,7 @@
 import ISystem from '../src/ISystem';
 import ECS from '../src/ECS';
 import Entity from '../src/Entity';
-import Query from 'Query';
+import Query from '../src/Query';
 
 class MockSystem extends ISystem {
     public query: Query; // Simplified for example purposes

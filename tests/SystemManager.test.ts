@@ -1,7 +1,7 @@
 import SystemManager from '../src/SystemManager';
 import ISystem from '../src/ISystem';
 import Entity from '../src/Entity';
-import Query from 'Query';
+import Query from '../src/Query';
 
 // Mock ISystem for testing
 class MockSystem extends ISystem {
